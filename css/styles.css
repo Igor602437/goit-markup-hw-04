@@ -317,17 +317,18 @@ img {
   align-items: center;
   width: 40px;
   height: 40px;
-  background-image: url("../images/svg/ellipse.svg");
+  background-image: url(../images/svg/ellipse.svg);
+  /* background-image: url("../images/sprite.svg#icon-ellipse"); */
   background-repeat: no-repeat;
 }
 
-.icon-link:hover {
+/* .icon-link:hover {
   fill: #31d0aa;
-}
+} 
 
 .social-icon {
   fill: #fff;
-}
+}*/
 
 /* ==== CONTACTS ==== */
 
@@ -354,9 +355,6 @@ img {
 .ftr-txt {
   color: #f4f4fd;
   max-width: 264px;
-}
-
-.social-media {
 }
 
 .footer-description {
