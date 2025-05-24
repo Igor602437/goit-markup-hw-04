@@ -305,7 +305,7 @@ img {
   justify-content: center;
 }
 
-.social-list {
+.card-cont .social-list {
   display: flex;
   gap: 24px;
   margin: 8px 16px 0;
@@ -336,6 +336,12 @@ img {
   padding: 100px 0;
 }
 
+.ftr .container {
+  display: flex;
+  gap: 120px;
+  align-items: flex-start;
+}
+
 .logo.footer {
   margin-bottom: 16px;
   display: inline-block;
@@ -348,4 +354,19 @@ img {
 .ftr-txt {
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.social-media {
+}
+
+.footer-description {
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.social-media .social-list {
+  display: flex;
+  margin: 0;
+  gap: 16px;
 }
