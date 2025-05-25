@@ -132,7 +132,7 @@ img {
 }
 
 .nav-menu::after {
-  display: block;
+  /* display: block; */
   content: "";
   position: absolute;
   border-radius: 2px;
