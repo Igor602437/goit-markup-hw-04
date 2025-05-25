@@ -94,7 +94,6 @@ img {
 .page-header .container {
   display: flex;
   justify-content: space-between;
-  /*align-items: center;*/
 }
 
 .logo.hdr {
@@ -105,7 +104,6 @@ img {
 
 .sctr-nav {
   display: flex;
-  /* gap: 76px; */
   align-items: flex-start;
 }
 
@@ -143,12 +141,12 @@ img {
   bottom: -1px;
   color: #404bbf;
   background-color: #404bbf;
-  /* margin-top: 20px; */
 }
 
 .addr-link {
   font-style: normal;
   display: flex;
+  justify-content: center;
   gap: 40px;
 }
 
@@ -192,8 +190,6 @@ img {
   margin: auto;
   margin-bottom: 48px;
   max-width: 496px;
-  /*text-align: center;*/
-  /*align-items: center;*/
 }
 
 .form-btm {
@@ -229,7 +225,6 @@ img {
   font-weight: bold;
   line-height: 1.11;
   text-align: center;
-  /* text-transform: capitalize; */
 }
 
 .princp-list {
@@ -242,27 +237,22 @@ img {
   text-align: left;
 }
 
-.principles-icon {
-  background: #f4f4fd;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-
+.item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
-  padding: 24px 100px;
-  /* margin-bottom: 8px; */
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
 /* ==== TEAM ==== */
 
 .sect-team {
   background-color: #f4f4fd;
-  padding: 120px 0; /*  15px; */
-}
-
-.sect-main {
-  /*text-align: center;*/
-  margin-bottom: 72px;
+  padding: 120px 0;
 }
 
 .team-list {
@@ -283,10 +273,42 @@ img {
   text-align: center;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background-color: #404bbf;
+}
+
+.social-icon {
+  fill: #f4f4fd;
+}
+
 /* ==== PORTFOLIO ==== */
 
 .sect-portfl {
-  padding: 120px 0; /* 15px; */
+  padding: 120px 0;
 }
 
 .sect-main {
@@ -320,35 +342,6 @@ img {
 .card-portf .page-title {
   margin-bottom: 8px;
 }
-
-.addr-link {
-  display: flex;
-  justify-content: center;
-}
-
-.card-cont .social-list {
-  display: flex;
-  gap: 24px;
-  margin: 8px 16px 0;
-}
-
-.icon-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background-image: url(../images/ellipse.svg);
-  background-repeat: no-repeat;
-}
-
-/* .icon-link:hover {
-  fill: #31d0aa;
-} 
-
-.social-icon {
-  fill: #fff;
-}*/
 
 /* ==== CONTACTS ==== */
 
